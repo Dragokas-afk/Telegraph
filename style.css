@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.wrapper {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 300px;
+    border: 1px #716040 solid;
+    background-color: #f9f4ef;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+h1 {
+    color: #020826;
+}
+
+.form_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.form_wrapper_elem {
+    display: flex;
+    gap: 10px;
+    color: #716040;
+
+}
+
+.form_wrapper_elem input {
+    height: 20px;
+    width: 180px;
+
+}
+
+textarea {
+    width: 180px;
+    height: 20px;
+}
+.button {
+    padding: 6px 26px 6px 26px;
+    background-color: #8c7851;
+    border-radius: 5px;
+    border: 0px solid #2e863c;
+    margin-bottom: 15px;
+    color: #fffffe;
+}
+
+.error {
+    background: #c54c4c;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.success {
+    background: #7cd353;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
